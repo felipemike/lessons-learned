@@ -1,6 +1,6 @@
 # :pushpin: Lessons Learned
 
-![Preview do Projeto](preview.gif)
+![Preview do Projeto](preview.png)
 
 Você pode ver o projeto em seu navegador [clicando aqui](#/)
 
