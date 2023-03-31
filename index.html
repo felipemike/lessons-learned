@@ -1,103 +1,138 @@
 <!DOCTYPE html>
-<html lang="pr-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projeto</title>
-</head>
-<body>
-    <header>
-        <div id="cabecalho">
-            <h1 id="titulo">Felipe Clemente</h1>
-        </div>                                
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lessons Learned</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <div class="container">
+        <h1 id="titulo">Lessons Learned</h1>
         <nav>
-            <ul id="nav">
-                <li><a href="#nav">Inicio</a></li>
-                <li><a href="#licoes_a_aprender">Lições Aprendidas</a></li>
-                <li><a href="#licoes_a_aprender">Lições a Aprender</a></li>
-            </ul>
+          <ul>
+            <li><a href="#sobre">About</a></li>
+            <li><a href="#licoes">Lessons</a></li>
+            <li><a href="#aprendizado">Learning</a></li>
+            <li><a href="#tabela">Chart</a></li>
+            <li><a href="https://betrybe.com" target="_blank">Trybe Website</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
-    <img src="img/felipe.png" alt="Felipe Clemente" id="minha_foto">
+    <main>
+      <div class="container">
+        <section id="sobre">
+          <h2>About</h2>
+          <div>
+            <img id="minha_foto" src="img/felipe.png" alt="Foto do Felipe"/>
+            <p>Este é o meu primeiro projeto na <strong>Trybe</strong> e estou animado em aplicar todo o conhecimento que adquiri na última semana para concretizá-lo.</p>
+          </div>
+        </section>
 
-    <article class="lado-esquerdo">
-        <h2>Meu Aprendizado</h2>
-        <p>Até o momento, tenho aprendido muito sobre desenvolvimento web e suas tecnologias. Alguns dos assuntos que já estudei incluem: Shell, Unix, Git, Git-GitHub, HTML, HTML Semântico, Seletores, Bloco e Elementos, Estrutura CSS, entre outros.</p>
-    </article>
+        <section id="licoes">
+          <h2>Lessons</h2>
+          <div>
+            <section>
+              <h3>Lições aprendidas na Trybe</h2>
+              <ol id="licoes_aprendidas">
+                <li>Unix & Bash</li>
+                <li>Git & GitHub</li>
+                <li>Como funciona a Internet</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Autoliderança</li>
+                <li>Gestão de tempo</li>
+                <li>Assertividade</li>
+                <li>Dar e receber feedbacks</li>
+                <li>Colaboração</li>
+              </ol>
+            </section>
 
-    <div id="lado-lado">
-        <aside class="lado-direito">
-            <h2>Sobre mim</h2>
-            <p>
-                Olá, meu nome é Felipe Clemente e sou um desenvolvedor web em formação pela Trybe. Estou sempre em busca de novos desafios e aprendizados, e estou animado para compartilhar um pouco do que já aprendi com vocês!
-            </p>
-            <p>Quer saber mais? Veja o meu GitHub:</p>
-            <a href="https://github.com/felipemike" target="_blank">GitHub (abre em nova janela)</a>
-        </aside>
-    </div>
+            <section>
+              <h3>Lições que desejo aprender na Trybe</h2>
+              <ul id="licoes_a_aprender">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>NodeJS</li>
+                <li>MySQL</li>
+                <li>Inteligência Emocional</li>
+                <li>Resiliência</li>
+                <li>Comunicação</li>
+                <li>Escuta ativa</li>
+                <li>Criatividade</li>
+              </ul>
+            </section>
+          </div>
+        </section>
 
-    <section>
-        <h3>Lições Aprendidas</h3>
-        <ol id="licoes_aprendidas">
-            <li>Shell</li>
-            <li>Unix</li>
-            <li>Git</li>
-            <li>Git-GitHub</li>
-            <li>HTML</li>
-            <li>HTML Semântico</li>
-            <li>Seletores</li>
-            <li>Bloco e Elementos</li>
-            <li>Estrutura CSS</li>
-        </ol>
-    </section>
+        <section id="aprendizado">
+          <h2>Meu aprendizado na Trybe</h2>
+          <section>
+            <article class="lado-esquerdo">
+              <div>
+                <p>Desde que comecei a estudar na Trybe, meu medo inicial de como seria o curso foi substituído por um sentimento de tranquilidade e amor pelo aprendizado. Recentemente concluímos o terceiro bloco do módulo de fundamentos e estou maravilhado com a quantidade de conhecimento que adquiri em tão pouco tempo. Aprendi coisas que antes não fazia ideia de como funcionavam e agora as utilizo diariamente.</p>
+              </div>
+            </article>
+            
+            <aside class="lado-direito">
+              <p>Desenvolver minhas habilidades interpessoais tem sido um desafio para mim, mas estou empenhado em melhorá-las. Com a ajuda da Trybe, estou participando de dinâmicas em grupo e esquentas, o que tem me ajudado bastante a aprimorar minhas soft-skills.</p>
+            </aside>
+          </section>
+        </section>
 
-    <section>
-        <h3>Lições a Aprender</h3>
-        <ul id="licoes_a_aprender">
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Node.js</li>
-            <li>MySQL</li>
-            <li>C++</li>
-            <li>React</li>
-            <li>PHP</li>
-            <li>Segurança de Dados</li>
-            <li>Linux</li>
-            <li>CentOS</li>
-        </ul>
-    </section>
-
-    <p>Na tabela a seguir constam informações sobre as linguagens ensinadas
-        na Trybe e suas respectivas taxas de empregabilidade.</p>
-        <table>
-          <thead>
+        <section id="tabela">
+          <h2>Para que serve HTML, CSS e JavaScript?</h2>
+          <table>
+            <thead>
               <tr>
-                  <th>Linguagem</th>
-                  <th>Nível de Conhecimento</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
               </tr>
-          </thead>
-          <tbody>
+            </thead>
+            <tbody>
               <tr>
-                  <td>HTML</td>
-                  <td>Avançado</td>
+                <td>Conteúdo</td>
+                <td>Design</td>
+                <td>Interações</td>
               </tr>
               <tr>
-                  <td>CSS</td>
-                  <td>Avançado</td>
+                <td>Textos</td>
+                <td>Cores</td>
+                <td>Menus</td>
               </tr>
               <tr>
-                  <td>JavaScript</td>
-                  <td>Básico</td>
+                <td>Imagens</td>
+                <td>Sombras</td>
+                <td>Animações</td>
               </tr>
               <tr>
-                  <td>React</td>
-                  <td>Iniciante</td>
+                <td>Vídeos</td>
+                <td>Tamanhos</td>
+                <td>Popups</td>
               </tr>
-          </tbody>
-      </table>
-      
-      <footer id="rodape">
-          <p>Desenvolvido por Felipe Clemente &copy; 2023</p>
-      </footer>      
+              <tr>
+                <td>Tabelas</td>
+                <td>Posicionamento</td>
+                <td>Validações</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+    <footer id="rodape">
+      <p>Desenvolvido por <a href="https://www.linkedin.com/in/felipeclemente2012/">Mike</a> &#x1f680; 2022</p>
+    </footer>
+  </body>
+</html>
