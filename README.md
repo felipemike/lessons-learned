@@ -2,7 +2,7 @@
 
 ![Preview do Projeto](preview.png)
 
-Você pode ver o projeto em seu navegador [clicando aqui](#/)
+Você pode ver o projeto em seu navegador [clicando aqui](https://felipemike.github.io/lessons-learned/)
 
 ## :pencil: Sobre
 
