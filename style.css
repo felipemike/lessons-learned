@@ -214,3 +214,66 @@ background-color: var(--cor-principal);
 color: var(--branco);
 height: 10rem;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  #cabecalho h1 {
+    line-height: 3rem;
+  }
+
+  #cabecalho nav {
+    flex-direction: column;
+  }
+
+  #cabecalho nav a {
+    padding: 1rem;
+  }
+
+  #sobre {
+    padding-top: 10rem;
+  }
+
+  #sobre img {
+    width: 100%;
+    max-width: 40rem;
+  }
+
+  #sobre div {
+    flex-direction: column;
+  }
+
+  #sobre div p {
+    width: 100%;
+    max-width: 50rem;
+  }
+
+  #licoes {
+    padding-top: 10rem;
+  }
+
+  #aprendizado section {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  #aprendizado section .lado-esquerdo,
+  #aprendizado section .lado-direito {
+    width: 100%;
+  }
+
+  #tabela {
+    padding-top: 10rem;
+  }
+
+  #tabela table {
+    font-size: 1.6rem;
+  }
+
+  #tabela thead th {
+    padding: 1rem;
+  }
+}
+
